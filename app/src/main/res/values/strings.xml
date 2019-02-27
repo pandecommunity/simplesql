@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">simplesql</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="nama">Nama</string>
+    <string name="status">Status</string>
+    <string name="simpan_data">SIMPAN DATA</string>
+    <string name="edit_data">Edit Data</string>
+    <string name="hapus_data">Hapus Data</string>
 </resources>
