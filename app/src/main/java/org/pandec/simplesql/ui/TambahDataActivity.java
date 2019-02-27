@@ -48,7 +48,7 @@ public class TambahDataActivity extends AppCompatActivity implements View.OnClic
                     dataHelper.insert(data);
                     dataHelper.close();
 
-                    Toast.makeText(getBaseContext(), "Data Berhasil Disimpan", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getBaseContext(), "Data Berhasil Disimpan Sekarang", Toast.LENGTH_LONG).show();
                 }
                 break;
         }
