@@ -70,7 +70,7 @@ public class PerubahanActivity extends AppCompatActivity implements View.OnClick
             case R.id.btn_hapus :
                 dataHelper.delete(id);
 
-                Toast.makeText(getBaseContext(), "Data Sudah Terhapus", Toast.LENGTH_LONG).show();
+                Toast.makeText(getBaseContext(), "Data Sudah Terhapus Dari Database", Toast.LENGTH_LONG).show();
 
                 Intent intent = new Intent(getBaseContext(), MainActivity.class);
                 startActivity(intent);
