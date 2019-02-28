@@ -68,7 +68,12 @@ public class PerubahanActivity extends AppCompatActivity implements View.OnClick
                 break;
 
             case R.id.btn_hapus :
-                Toast.makeText(getBaseContext(), "Hapus", Toast.LENGTH_LONG).show();
+                dataHelper.delete(id);
+
+                Toast.makeText(getBaseContext(), "Data Sudah Terhapus", Toast.LENGTH_LONG).show();
+
+                Intent intent = new Intent(getBaseContext(), MainActivity.class);
+                startActivity(intent);
                 break;
         }
     }

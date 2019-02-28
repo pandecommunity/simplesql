@@ -1,5 +1,6 @@
 package org.pandec.simplesql.ui;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -49,6 +50,9 @@ public class TambahDataActivity extends AppCompatActivity implements View.OnClic
                     dataHelper.close();
 
                     Toast.makeText(getBaseContext(), "Data Berhasil Disimpan Sekarang", Toast.LENGTH_LONG).show();
+
+                    Intent intent = new Intent(getBaseContext(), MainActivity.class);
+                    startActivity(intent);
                 }
                 break;
         }
